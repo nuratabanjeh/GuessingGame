@@ -14,6 +14,7 @@ function welcome() {
 // eslint-disable-next-line no-unused-vars
 function guessingGame() {
   question1();
+  question2();
   function question1(){
   switch (prompt('Im Software Engineering Graduate').toLowerCase()) {
     case 'yes':
@@ -30,7 +31,7 @@ function guessingGame() {
   }
   //console.log('Im Software Engineering Graduate : Yes');
 }
-
+function question2(){
   switch (prompt('I graduated from the universty of jordan').toLowerCase()) {
     case 'yes':
     case 'y':
@@ -45,7 +46,7 @@ function guessingGame() {
       break;
   }
   //console.log('I graduated from the universty of jordan : No');
-
+}
   switch (prompt('i worked in my field for three years').toLowerCase()) {
     case 'yes':
     case 'y':
