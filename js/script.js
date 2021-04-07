@@ -17,6 +17,7 @@ function guessingGame() {
   question2();
   question3();
   question4();
+  question5();
   function question1(){
   switch (prompt('Im Software Engineering Graduate').toLowerCase()) {
     case 'yes':
@@ -81,6 +82,7 @@ function question4(){
   }
   //console.log('i like backend development : Yes');
 }
+function question5(){
   switch (prompt('i want to someday be a AI designer').toLowerCase()) {
     case 'yes':
     case 'y':
@@ -95,7 +97,7 @@ function question4(){
       break;
   }
   //console.log('i want to someday be a AI designer : Yes');
-
+}
   let number = 0;
   for (let i = 0; i < 4; i++) {
     number = parseInt(
