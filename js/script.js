@@ -16,6 +16,7 @@ function guessingGame() {
   question1();
   question2();
   question3();
+  question4();
   function question1(){
   switch (prompt('Im Software Engineering Graduate').toLowerCase()) {
     case 'yes':
@@ -64,6 +65,7 @@ function question3(){
   }
   //console.log('i worked in my field for three years : No');
 }
+function question4(){
   switch (prompt('i like backend development').toLowerCase()) {
     case 'yes':
     case 'y':
@@ -78,7 +80,7 @@ function question3(){
       break;
   }
   //console.log('i like backend development : Yes');
-
+}
   switch (prompt('i want to someday be a AI designer').toLowerCase()) {
     case 'yes':
     case 'y':
