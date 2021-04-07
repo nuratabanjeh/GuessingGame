@@ -19,6 +19,7 @@ function guessingGame() {
   question4();
   question5();
   question6();
+  question7();
   function question1(){
   switch (prompt('Im Software Engineering Graduate').toLowerCase()) {
     case 'yes':
@@ -122,6 +123,7 @@ function question6(){
   }
   // console.log('Guess my Number : 7');
 }
+function question7(){
   let roman = ['XI', 'XV', 'XVII', 'XX'];
   let input = [];
   let correct = 0;
@@ -164,7 +166,7 @@ function question6(){
       );
     }
   }
-
+}
   alert(
     `Welcome to our website ${userName}, you got ${correctAnswers} correct answers out of 7`
   );
