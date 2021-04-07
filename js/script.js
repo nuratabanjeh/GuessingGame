@@ -18,6 +18,7 @@ function guessingGame() {
   question3();
   question4();
   question5();
+  question6();
   function question1(){
   switch (prompt('Im Software Engineering Graduate').toLowerCase()) {
     case 'yes':
@@ -98,6 +99,7 @@ function question5(){
   }
   //console.log('i want to someday be a AI designer : Yes');
 }
+function question6(){
   let number = 0;
   for (let i = 0; i < 4; i++) {
     number = parseInt(
@@ -119,7 +121,7 @@ function question5(){
     if (i === 3) alert('You ran out of chances, the answer is 7');
   }
   // console.log('Guess my Number : 7');
-
+}
   let roman = ['XI', 'XV', 'XVII', 'XX'];
   let input = [];
   let correct = 0;
